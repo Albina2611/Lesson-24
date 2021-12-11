@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.img_header{
+    margin-top: 17px;
+    padding-right: 27px;
+}
+.ru{
+    background: #4AD295;
+    border-radius: 2px;
+    font-size: 21px;
+    padding: 1px 6px 1px 5px;
+    position: relative;
+    top: 18px;
+    right: 26px;
+}
+.ua{
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+}
+.ua_ru{
+    position: relative;
+    left: 160px;
+    bottom: 60px;
+    margin-left: 25px;
+    margin-right: 31px;
+    border-left: 1px solid gray;
+    padding-left: 15px;
+}
+.usd_eur{
+    font-size: 15px;
+    line-height: 19px;
+    position: relative;
+    left: 270px;
+    bottom: 80px;
+}
+.p_header{
+    padding-left: 30px;
+    border-left: 1px solid gray;
+    width: 104px;
+    height: 19px;
+}
+.icon{
+    position: relative;
+    left: 400px;
+    bottom: 118px;
+    border-left: 1px solid gray;
+    padding-left: 15px;
+}
+.icon img{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+}
+.smart{
+    position: relative;
+    left: 123px;
+    bottom: 40px;
+    height: 40px;
+    padding-right: 15px;
+    border-right: 1px solid gray;
+}
+.phone{
+    position: relative;
+    left: 530px;
+    bottom: 156px;
+}
+.phone p{
+    font-size: 16px;
+    line-height: 21px;
+    border-left: 1px solid gray;
+    padding-left: 19px;
+    padding-top: 0;
+}
+.input_one{
+    background: #EFF3F6;
+    border-radius: 2px;
+    width: 240px;
+    height: 55px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #373737;
+    border: none;
+    position: relative;
+    left: 730px;
+    bottom: 246px;
+    
+}
+
+.red_box{
+    background: #DD4053;
+    width: 53px;
+    height: 55px;
+    position: relative;
+    left: 918px;
+    bottom: 301px;
+    border-radius: 2px;
+}
+.red_box img{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    position: relative;
+    left: 15px;
+    top: 14px;
+}
+
