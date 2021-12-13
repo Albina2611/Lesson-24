@@ -1,85 +1,183 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson-24</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div class="header__past__one">
-                    <img class="img_header" src="logo.svg" alt="">
-            <div class="ua_ru">
-                <img class="ua" src="UA.svg" alt="">
-                <img  class="ru"  src="RU.svg" alt="">
-            </div>
-            <div class="usd_eur">
-                <p class="p_header">
-                    USD 28,90
-                </p>
-                <p class="p_header">
-                    EUR 35,00
-                </p>
-            </div>
-            <div class="icon">
-                <img src="facebook.svg" alt="">
-                <img src="instagram.svg" alt="">
-                <img src="youtube.svg" alt="">
-            </div>
-            <div class="phone">
-                <div class="phonne">  <p>
-                    044-537-20-07
-                </p>
-                <p>
-                    068-537-20-07
-                </p></div>
-                <div class="phtwo"><img class="smart" src="smartphone.svg" alt=""></div>
-                </div>
-                <form>
-                      <div class="input_header">
-                <input type="text" class="input_one" placeholder="MAISTRA ONLINE">
-                <img class="img_rg" src="input-one.svg" alt="">
-                </input>
-                <input type="text" class="input_two" placeholder="ТУРЫ ONLINE">
-                <img class="img_rg" src="input-two.svg" alt="">
-            </div>
-                </form>
-            </div>
-            <br>
-            <hr>
-            <div class="header__past__two">
-                <div class="header__nav">
-                    <nav>
-                      <ul>
-                      <img class="img_lupa" src="lupatwo.svg" alt="">
-                      <li class="li_nav" > <a href=""> Отели <img src="strel.svg" alt=""></a></li>
-                      <li class="li_nav" > <a href="">Страны <img src="strel.svg" alt=""> </a> </li>
-                      <li class="li_nav" > <a href=""> Авиа <img src="strel.svg" alt=""> </a></li>
-                      <li class="li_nav" > <a href="">Каталог туров</a> </li>
-                      <li class="li_nav" > <a href="">Агентам <img src="strel.svg" alt=""></a> </li>
-                      <li class="li_nav" > <a href="">О нас <img src="strel.svg" alt=""></a> </li>
-                      <li class="li_nav" > <a href=""> Блог</a></li>
-                      <li class="li_nav" > <a href="">FAQ</a> </li>
-                      <li class="li_nav" > <a href="">Контакты</a> </li>
-                    </ul>  
-                    </nav>
-                </div>
-                <section>
-                    <div class="euro">
-                        <p class="p_heaader">От 300 € за сутки</p>
-                        <p class="p_two">НОВЫЙ ЭКО-ОТЕЛЬ MASTILA НА О. ХОВАР В ХОВАТИИ</p>
-                         <button class="btn_one">
-                             <p>Подробнее</p>
-                         </button>
-                    </div>
-                </section>
-                
-            </div>
-        </div>
-        
-    </header>
-</body>
-</html>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.header__past__one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+.img_header{
+   width: 100px;
+    height: 60px;
+}
+.ru{
+    background: #4AD295;
+    border-radius: 2px;
+    font-size: 21px;
+    padding: 4px 7px 4px 7px;
+}
+.ua{
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+}
+.ua_ru{
+    margin-right: 31px;
+    padding-left: 50px;
+    border-left: 1px solid gray;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.usd_eur{
+    font-size: 15px;
+    line-height: 19px;
+    height: 40px;
+    margin-left: -20px;
+}
+.p_header{
+    padding-left: 30px;
+    border-left: 1px solid gray;
+    width: 104px;
+    height: 19px;
+}
+.icon{
+    border-left: 1px solid gray;
+    padding-left: 15px;
+    height: 40px;
+}
+.icon img{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 5px;
+    margin: 0 auto;
+}
+.phone{
+    display: flex;
+}
+.smart{
+    height: 40px;
+    padding-right: 5px;
+    border-right: 1px solid gray;
+}
+.phone p{
+    font-size: 16px;
+    line-height: 21px;
+    border-left: 1px solid gray;
+    padding-left: 19px;
+    padding-top: 0;
+}
+.input_one{
+    background: #EFF3F6;
+    border-radius: 2px;
+    width: 170px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #373737;
+    border: none;
+}
+
+.red_box{
+    background: #DD4053;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+.red_box img{
+    height: 20px;
+    width: 20px;
+
+}
+.input_header{
+    display: flex;
+    margin-left: 0px;
+}
+.input_two{
+    background: #EFF3F6;
+    border-radius: 2px;
+    width: 170px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #373737;
+    border: none; 
+    margin-left: 10px;
+}
+.grean_box{
+    background-color: #4AD295;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+.img_lupa{
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header__nav{
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+}
+li{
+    padding: 35px;
+}
+.photo_header{
+    max-width: 1200px;
+}
+section{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%) , url(/phhoto_header.png);
+    max-width: 1440px;
+    height: 490px;
+}
+.euro{
+    padding: 100px 350px 0 180px;
+}
+.p_heaader{
+    padding: 6px 21px 7px 23px;
+    color: white;
+    border: 1px solid white;
+    width: 249px;
+    height: 45px;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+.p_two{
+    font-size: 45px;
+    line-height: 55px;
+    color: #FFFFFF;
+    max-width: 725px;
+    margin-top: 16px;
+}
+.btn_one{
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+    width: 270px;
+    height: 60px;
+    margin:  42px 0 145px 0;
+    border: none;
+}
+.btn_one p{
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+.img_rg{
+    height: 40px;
+    width: 40px;
+}
